@@ -9,6 +9,11 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SquadQueer - Vagas Inclusivas Validadas",
   description: "Conectando pessoas trans com empresas verdadeiramente inclusivas",
+  icons: {
+  icon: "/images/squad-queer-logo.png",
+  shortcut: "/images/squad-queer-logo.png",
+  apple: "/images/squad-queer-logo.png"
+  }
 }
 
 export default function RootLayout({
