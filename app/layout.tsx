@@ -7,9 +7,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "TransMatch Jobs - Vagas Inclusivas Validadas",
+  title: "SquadQueer - Vagas Inclusivas Validadas",
   description: "Conectando pessoas trans com empresas verdadeiramente inclusivas",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
