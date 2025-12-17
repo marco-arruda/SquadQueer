@@ -4,20 +4,20 @@ import Link from "next/link"
 
 export function Footer() {
   return (
-    <footer className="border-t border-border bg-background">
+    <footer className="border-t border-border bg-[#38b6ff]/30 backdrop-blur supports-[backdrop-filter]:bg-[#38b6ff]/20">
       <div className="container py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <Image
                 src="/images/squad-queer-logo.png"
-                alt="Squad Queer"
+                alt="ELOOS"
                 width={40}
                 height={40}
                 className="hover:scale-110 transition-transform duration-300"
               />
               <span className="font-bold text-lg bg-gradient-to-r from-red-500 via-yellow-500 via-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                Squad Queer
+                ELOOS
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">

@@ -7,7 +7,7 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SquadQueer - Vagas Inclusivas Validadas",
+  title: "ELOOS - Vagas Inclusivas Validadas",
   description: "Conectando pessoas trans com empresas verdadeiramente inclusivas",
   icons: {
   icon: "/images/squad-queer-logo.png",
